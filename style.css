@@ -8,6 +8,10 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .text_orange{
     color: orange;
 }
@@ -48,7 +52,6 @@ h1{
 }
 
 .mission h2{
-    font-size: 40px;
     text-align: center;
 }
 
@@ -104,10 +107,65 @@ footer p{
 
 .random{
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;    
+}
+
+.random_content{
+    width: 50%;
+    padding-top: 50px;
+    margin: 0 100px;
+}
+
+.random_image{
+    width: 50%;
+    margin-left: 50px;
+}
+
+#section_image1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: left;
+    background-position-y: center;
+}
+
+#section_image2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
 .random_image img{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 
+.blog_heading{
+    text-align: center;
+}
+
+.blog{
+    display: flex;
+    margin: 100px 10%;
+}
+
+.blog_image{
+    height: 200px;
+    width: 100%;
+}
+
+.blog_item{
+    width: 33.33%;
+    margin: 0 10px;
+    border: 1px solid gray;
+}
+.blog_content{
+    padding: 20px;
+}
