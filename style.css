@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.text_orange{
+    color: orange;
+}
+
+.focuss_section{
+    display: flex;
+}
+
+.header_content{
+    width: 50%;
+    margin: 150px 150px 0 50px;
+}
+.header_paragrapg{
+    margin: 20px 0px;
+}
+
+.header_image{
+    width: 50%;
+    margin: 0 30px;
+    border-radius: 50%;
+}
+.header_image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header_content h1{
+    border-left: 5px solid rgb(235, 52, 19);
+}
+
+.btn_style{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
